@@ -1,0 +1,40 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 75%;
+    background-color: #011F1D; /* เปลี่ยนสีพื้นหลังตามที่คุณต้องการ */
+    padding: 10px; /* ปรับขนาดขอบของ Navbar ตามที่ต้องการ */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    margin-top: 20px;
+    flex-shrink: 0;
+  }
+  
+  .navbar-logo img {
+    max-height: 40px; /* ปรับความสูงของโลโก้ตามที่ต้องการ */
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  
+  .navbar-signout button {
+    background-color: #e74c3c; /* เปลี่ยนสีปุ่มตามที่คุณต้องการ */
+    color: white;
+    padding: 8px 12px; /* ปรับขนาดขอบของปุ่มตามที่ต้องการ */
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: auto;
+  }
+
+  .path-control p {
+    text-decoration: none; /* เอาเส้นใต้ออกเพื่อป้องกันการแสดงซ้ำ */
+    color: white; /* ให้ใช้สีข้อความที่ถูกกำหนดโดยผู้ใช้ */
+    transition: border-bottom 0.3s ease; /* เพิ่มเอฟเฟกต์ทำให้การเปลี่ยนสีเวลา hover มีการเรียบร้อย */
+  }
+  
+  .path-control p:hover {
+    border-bottom: 2px solid #fff; /* เพิ่มขีดเว้นใต้เมื่อ hover */
+  }

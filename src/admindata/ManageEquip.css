@@ -1,0 +1,78 @@
+.sutmai-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px 20px;
+    color: #000;
+    flex-grow: 1;
+    overflow-y: auto;
+    height: 100%;
+    margin-top: 10px;
+    width: 70%;
+  }
+  
+  .form-container {
+    width: 60%; /* Adjust the width as needed */
+    height: inherit;
+    margin-bottom: 20px;
+  }
+  
+  .form-container input,
+  .form-container button,
+  .form-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .table {
+    width: 120%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: -40px;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+  }
+
+  .table img {
+    max-width: 120px;
+    max-height: 120px;
+    height: auto;
+    display: block; /* ทำให้รูปเป็น block element */
+    margin: 0 auto; /* ทำให้รูปอยู่กลางตาราง */
+  }
+  
+  .button-group {
+    display: flex;
+  }
+  
+  .button-group button {
+    margin-right: 5px;
+  }
+
+  /* CSS สำหรับปุ่มทั้งหมด */
+.table-button button {
+    background-color: #fff; /* สีพื้นหลังปกติ */
+    color: #000; /* สีข้อความปกติ */
+    border: 1px solid #000; /* เส้นขอบปกติ */
+  }
+  
+  /* CSS สำหรับปุ่มที่ถูกเลือก (active) */
+  .table-button button.active {
+    background-color: #052207; /* สีพื้นหลังเมื่อถูกเลือก */
+    color: #fff; /* สีข้อความเมื่อถูกเลือก */
+    border: 1px solid #fff; /* เส้นขอบเมื่อถูกเลือก */
+  }
+  
+  
